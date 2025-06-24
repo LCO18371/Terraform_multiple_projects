@@ -1,9 +1,14 @@
 # Local .terraform directories
 .terraform/
+# Ignore .terraform directories in all subfolders
+**/.terraform/
 
 # .tfstate files
 *.tfstate
 *.tfstate.*
+**/.tfstate/
+**/.tfstate./*
+
 
 # Crash log files
 crash.log
